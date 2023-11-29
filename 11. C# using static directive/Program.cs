@@ -1,5 +1,6 @@
 ﻿using System;
 
+// using static directive
 using static System.Math;
 
 namespace _11.C__using_static_directive
