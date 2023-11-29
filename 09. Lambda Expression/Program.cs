@@ -39,8 +39,8 @@ namespace _09.Lambda_Expression
             intParameterAction(5);
             intStringPrameterAction(5, "hello");
 
-            ExecuteOperation(10, 20, (x, y) => x + y);
-            ExecuteOperation(10, 20, (x, y) => x - y);
+            ExecuteOperation(10, 20, (int x, int y) => x + y);
+            ExecuteOperation(10, 20, (int x, int y) => x - y);
         }
     }
 }
